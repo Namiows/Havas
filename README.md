@@ -12,6 +12,7 @@ Poderia ter utilizado container
 Utilizado arrowFunction já que estou trabalhando com funções.<br>
 Estilização experiencia do usuário<br>
 Íncluído o carousel
+Teste Unitário
 
 # incluído<br>
 Botão de voltar para a página de posts
