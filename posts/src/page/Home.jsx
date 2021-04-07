@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PostsComponent from '../components/PostsComponent';
 import Header from '../components/HeaderComponent';
-// import ReadMoreComponent from '../components/ReadMoreComponent';
 
 function Home () {
   const [posts, setPosts] = useState([])
@@ -27,7 +26,6 @@ function Home () {
                 index={ index }
               />
             </Link>
-            {/* <ReadMoreComponent /> */}
           </div>
         ))}
       </div>
