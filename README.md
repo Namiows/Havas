@@ -11,7 +11,7 @@ Poderia ter utilizado container
 # O que pode ser melhorado
 Utilizado arrowFunction já que estou trabalhando com funções.<br>
 Estilização experiencia do usuário<br>
-Íncluído o carousel
+Íncluído o carousel<br>
 Teste Unitário
 
 # incluído<br>
