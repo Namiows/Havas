@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import PostsComponent from '../components/PostsComponent';
 import Header from '../components/HeaderComponent';
+// import ReadMoreComponent from '../components/ReadMoreComponent';
 
 function Home () {
   const [posts, setPosts] = useState([])
@@ -15,14 +17,17 @@ function Home () {
 
   return (
     <>
-      <Header title='Posts' />
+      <Header title='Posts to choose' />
       <div className="posts-list">
         {posts.map((element, index) => (
           <div key={ element.id }>
-            <PostsComponent
-              element={ element }
-              index={ index }
-            />
+            <Link to={ `/posts/${element.id}` }>
+              <PostsComponent
+                element={ element }
+                index={ index }
+              />
+            </Link>
+            {/* <ReadMoreComponent /> */}
           </div>
         ))}
       </div>
