@@ -11,7 +11,7 @@ Poderia ter utilizado container
 # O que pode ser melhorado
 Utilizado arrowFunction já que estou trabalhando com funções.<br>
 Estilização experiencia do usuário<br>
-incluído o carousel
+Íncluído o carousel
 
 # incluído<br>
-Botão de voltar para a pagina de posts
+Botão de voltar para a página de posts
